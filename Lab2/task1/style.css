@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #F2F4F7;
+    min-height: 105vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1c1e21;
+}
+.cont {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.left{
+    flex: 1;
+    margin-bottom: 60px;
+}
+.left p{
+    width: 500px;
+}
+.left h1{
+    color: #0866FF;
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.left p{
+    font-size: 28px;
+}
+.footer{
+    background-color: white;
+}
+.r-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.right{
+    width: 91%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.right input{
+    padding: 17px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    color: #90949C;
+}
+
+.login{
+    background-color: #0866FF;
+    padding: 13px;
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+.right a{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #0866FF;
+    text-decoration: none;
+}
+.right a:hover{
+    text-decoration: underline;
+}
+.newacc{
+    background-color: #36A420;
+    color: white;
+    margin-top: 22px;
+    padding: 17px;
+    border-radius: 6px;
+    border: 1px solid white;
+    align-self: center;
+    width: 68%;
+    font-size: 16px;
+    font-weight: bold;
+}
+hr{
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid#DADDE1;
+}
+.newacc2{
+    text-align: center;
+    font-size: 14px;
+    margin: 17px;
+    margin-right: 25px;
+
+}
+.newacc2 a{
+    color: black;
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    padding: 20px;
+    font-size: 13px;
+    align-self: center;
+    background-color: white;
+    margin-top: auto;
+}
+.footlang, .footsetting{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+}
+.footsetting{
+    margin-top: 20px;
+}
+.footer hr{
+    max-width: 900px;
+    align-self: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.footer a{
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+}
+.footer a:hover{
+    text-decoration: underline;
+    text-align: center;
+}
