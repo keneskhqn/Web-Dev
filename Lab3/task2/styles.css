@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: #222;
+    color: #bbb;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+
+.container {
+    margin: 60px auto;
+    width: 600px;
+    text-align: left;
+    background-color: white;
+    padding: 60px;
+    border-radius: 14px;
+    border: 1px solid black;
+}
+
+.container h1 {
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #444;
+    margin-left: 30px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.form input {
+    flex: 1;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form button {
+    padding: 10px 18px;
+    background-color: #2d7dd2;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #1c5fa8;
+}
+
+#deleteBtn{
+    background-color: rgb(228, 4, 4);
+    color: white;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+}
+#deleteBtn:hover{
+    background-color: rgb(202, 35, 35);
+}
+
+.myList li{
+    width: 100%;
+    background-color: #f7f7f7;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myList span{
+    margin-right: auto;
+    margin-left: 10px;
+}
+.done {
+    text-decoration: line-through;
+}
+
